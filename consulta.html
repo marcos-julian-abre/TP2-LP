@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Qué es el juego de las damas? - Minidamas.com</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>    
+        <nav>
+            <ul class="seo">
+                <li><a href="index.html" >Mini Damas</a></li>
+                <li><a href="index.html" id="style6">DAMAS</a></li>
+                <li><a href="anexo.html" id="style6">¿QUÉ ES?</a></li>
+				<li><a href="consulta.html" id="style6">CONTACTO</a></li>
+             </ul>    
+        </nav>     
+    </header>
+    <br><br>
+    <div class="style3">      
+        <p><a href="index.html">Mini Damas</a> / Portada</p>
+    </div>
+	<h3 id="style7">Contacto</h3>
+	<form action="https://reqres.in/api/users" method="POST" id="formulario1">
+		<input id="name" name="name" type="text" placeholder="Nombre Completo" required>
+		<input id="job" name="job" type="email" placeholder="Email" required>
+		<textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Comentario"></textarea>
+		<br><br>
+		<input id="input4" name="submit" type="submit" value="Ingresar" placeholder="Enviar">
+	</form>
+	
+	<!-- <script>   // de esta forma es como usaria el fetch, pero con el formulario la api ya me da la respuesta 
+	
+	const $name = document.getElementById('name');
+	
+	const $job = document.getElementById('job');
+	
+	
+	fetch ('https://reqres.in/api/users', {
+		method: 'POST',
+		body: JSON.stringify({
+		name: '$name',
+		job: '$job',
+		}) 
+		})
+	.then((response) => response.json())
+	.then((data) => {
+		debugger
+	})
+		
+	document.write(data);
+	
+	
+	</script>
+        -->
+</body>
+<footer>
+    <p><b>minidamas.com 2021</b> - Juega a las damas online - <a href="https://www.minidamas.com/contacto"> Contacto</a></p>
+</footer>
+</html>
+
+
+<b></b>

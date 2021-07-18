@@ -1,0 +1,197 @@
+body {
+    background-color: rgb(224, 224, 224);
+  }
+
+header {
+  background-color: rgb(212, 104, 104);
+  width:100%;
+  color:white;
+  display: flex;
+  list-style: none;  
+} 
+
+.seo {
+  font: 24px Arial;
+  color: grey;
+  word-spacing:1%; 
+  justify-content: space-around;
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  padding-left: 15vw;
+  text-indent: 10px;
+} 
+
+
+.seo li a {
+  color:white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+
+
+
+footer {
+  background-color:white;
+  color:grey;
+  font:12px Arial;
+  height:4vw;
+  border-top:thin solid grey;
+  text-indent: 15vw;
+  margin-top: 7vw;
+  }
+
+
+
+#style1 {
+ font: 12px Arial;
+ word-spacing:3px; 
+ line-height:150%;
+ border-style: hidden;
+ border-radius: 5px;
+ background-color:rgb(241, 241, 241);
+ width:67vw;
+ padding-bottom: 1vw;
+ margin:auto;
+ margin-top: 50px;
+ padding-left: 10px;
+ padding-right: 1vw;
+ padding-top: 10px;
+ }
+
+.centro { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+ }
+
+ #resetButton{ 
+  font: 2vw Arial;
+  color: white;
+  background-color: rgb(73, 158, 192);
+  border-style: solid;
+  width:20vw;
+  height:5vw;
+  border-width: thin;
+  border-radius: 10px;
+  border-color:white;
+  box-shadow: 5px 10px 18px black;  
+  }
+  
+
+
+
+.style3 {
+  font: 13px Arial;
+  color: grey;
+  word-spacing:3px; 
+  border-style: hidden;
+  border-radius: 5px;
+  background-color:rgb(241, 241, 241);
+  width:67vw;
+  height:30px;
+  margin:auto;
+  margin-top: 1px;
+  margin-bottom: 50px;
+  text-indent: 20px;
+}
+
+
+.style3 p {
+padding-top: 5px;
+margin: auto;
+}
+
+
+#style4 {
+  font: 13px Helvetica;
+  word-spacing:2px; 
+  line-height:150%;
+  width:90%;
+  height:10%;
+  margin:auto;
+  padding-left: 15vw;
+}
+
+#style5 {
+  text-indent: 15vw;
+  font: 3vw Arial;  
+  margin-top: -1vw;
+}
+
+
+#style6 {
+  font: 15px important;
+}
+
+
+hr {
+	position:absolute;
+	left:0px;
+	width:440px;
+}
+
+#moveBlancas {
+	position:absolute;
+	left:500px;
+	top: 200px;
+	width:200px;
+}
+
+#moveNegras {
+	position:absolute;
+	left:700px;
+	top: 200px;
+	width:200px;
+}
+
+canvas {
+	position:relative;
+
+}
+
+
+.formulario1 {
+	position:relative;
+ display: flex;
+ 
+	
+}
+
+
+input {
+	margin: 2vw;
+	margin-left: 16vw;
+	width: 65%;
+  padding: 2px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+	
+	
+}
+
+
+textarea {
+		margin: 2vw;
+	margin-left: 16vw;
+	width: 65%;
+  padding: 2px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	
+}
+
+#style7 {
+  text-indent: 16vw;
+  font: 3vw Arial;  
+  margin-top: -1vw;
+  margin-bottom: -0.5vw;
+}
+
+
